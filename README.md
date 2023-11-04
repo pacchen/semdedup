@@ -52,6 +52,12 @@ Representation spaces to be used
 - R1. Pixel space
 - R2. Embedding space
 
+Sampling techniques used after Kmeans and Cos similarity
+- Random
+- Near 50%
+- Distant 50%
+- Stratification (Best Results)
+
 Experiments
 - E1. Pairwise Cosine similarity per clusters 
 - E2. Data pruning ratio vs. Training steps vs. Performance
